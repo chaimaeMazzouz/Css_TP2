@@ -1,0 +1,6 @@
+.liste_principale {
+  list-style-type: upper-roman;
+}
+.sous_liste {
+  list-style-type: lower-alpha;
+}
