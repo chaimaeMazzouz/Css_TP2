@@ -3,7 +3,7 @@ ol {
   list-style: none;
 }
 li {
-  margin-top: 3px;
+  margin-top: 2px;
   padding: 10px;
 }
 li::before {
