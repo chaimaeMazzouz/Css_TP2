@@ -1,17 +1,16 @@
 ol {
-  counter-reset: orderedlist;
   list-style: none;
+  counter-reset: orderedlist;
 }
 li {
-  margin-top: 2px;
-  padding: 10px;
+  padding-top: 10px;
 }
 li::before {
   counter-increment: orderedlist;
   content: counter(orderedlist);
   font-weight: bold;
   font-size: 1em;
-  padding: 5px;
+  padding: 4px;
   margin-right: 5px;
   text-align: center;
   color: #fff;
